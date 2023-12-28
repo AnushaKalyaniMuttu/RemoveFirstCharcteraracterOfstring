@@ -1,0 +1,4 @@
+long originalValue = 123456L;
+String stringValue = String.valueOf(originalValue);
+stringValue = stringValue.substring(1);
+long newValue = Long.parseLong(stringValue);
